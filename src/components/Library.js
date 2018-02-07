@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Library = () => (
-  <section className="library">
-    Soon to be the home of the BlocJam's Library!
-  </section>
-);
-
+class Library extends Component {
+  render() {
+    return (
+      <section className="library">
+        Soon to be the home of the BlocJam's Library!
+      </section>
+    )
+  }
+}
+    
 export default Library;
