@@ -9,6 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <header>
+          <nav>
+            <Link to='/'>Landing</Link> | <Link to='/library'>Library</Link>
+          </nav>
           <h1>BlocJams</h1>
         </header>
         <main>
