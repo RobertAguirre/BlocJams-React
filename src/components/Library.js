@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import albumData from '../data/album.js';
 
 class Library extends Component {
@@ -10,12 +11,12 @@ class Library extends Component {
     return (
       <section className="library">
         {this.state.albums.map((album, index) =>
-          <div key={index}>
+          <Link to={`/album/${album.slug}`} key={index}>
             <img src={album.albumCover} alt={album.title} />
             <div>{album.title}</div>
             <div>{album.artist}</div>
             <div>{album.songs.length} songs</div>
-          </div>
+          </Link>
         )}
       </section>
     );
