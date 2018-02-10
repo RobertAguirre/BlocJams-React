@@ -67,6 +67,10 @@ This project was initialized using [Create React App](https://github.com/faceboo
           <li>The Previous Track button doesn't respond if there is no previous song.</li>
           <li>The Next Track button plays the next song on the album.</li>
           <li>The Next Track button doesn't respond if there is no next song.</li>
+          <li>I see a time control slider that shows the current time of the song.</li>
+          <li>I can click and drag on the time control slider to change the current time.</li>
+          <li>I see a volume slider that shows the player's current volume.</li>
+          <li>I can click and drag on the volume slider to adjust the volume.</li>
         </ul>
       </td>
     </tr>
