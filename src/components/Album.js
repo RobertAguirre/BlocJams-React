@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import albumData from './../data/album.js';
+import albumData from './../data/album';
+import PlayerBar from './PlayerBar';
 
 class Album extends Component {
   constructor(props) {
@@ -87,6 +88,7 @@ class Album extends Component {
               )}
             </tbody>
           </table>
+          <PlayerBar />
         </section>
         <br />
 

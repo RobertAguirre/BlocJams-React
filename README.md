@@ -54,5 +54,21 @@ This project was initialized using [Create React App](https://github.com/faceboo
         </ul>
       </td>
     </tr>
+    <tr> <!-- Row 5 -->
+      <td valign="top"><i>As a listener, I want to have a set of standard music controls so that I have complete control over my listening experience.</i>
+      </td>
+      <td>
+        <ul>
+          <li>Regardless of scroll position, I see a "player bar" with controls for: Play/Pause, Previous Track, Next Track, Seek, and Volume.</li>
+          <li>The Play/Pause button shows a "play" icon if no song is currently playing.</li>
+          <li>The Play/Pause button shows a "pause" button if a song is playing.</li>
+          <li>The Previous Track and Next Track buttons only respond when a song is currently playing.</li>
+          <li>The Previous Track button plays the previous song on the album.</li>
+          <li>The Previous Track button doesn't respond if there is no previous song.</li>
+          <li>The Next Track button plays the next song on the album.</li>
+          <li>The Next Track button doesn't respond if there is no next song.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
