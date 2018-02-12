@@ -102,7 +102,7 @@ class Album extends Component {
   }
 
   formatTime(time) {
-  return time ? `${Math.floor(time / 60)}:${Number(time % 60 / 100).toFixed(2).substr(2,3)}` : '-:--' 
+  return time ? `${Math.floor(time / 60)}:${Number(time % 60 / 100).toFixed(2).substr(2,3)}` : '-:--'
   }
 
   render() {

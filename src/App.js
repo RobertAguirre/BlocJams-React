@@ -9,11 +9,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <nav>
-            <Link to='/'>Landing</Link> | <Link to='/library'>Library</Link>
+        <header className="App-header">
+          <nav className="App-nav">
+            <Link to='/' className="logo-hover">
+              <img className="logo" src="/assets/images/bloc_jams_logo.png" alt="BlocJams-logo"/>
+            </Link>
+            <Link to='/library' className="homelink">Collection</Link>
+            <Link to='/' className="homelink ion-home"></Link>
           </nav>
-          <h1>BlocJams</h1>
         </header>
         <main>
           <Route exact path="/" component={Landing} />
